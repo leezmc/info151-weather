@@ -28,6 +28,27 @@ Complete Date: 6/8/2026
     text-align: center;
 }
 
+.juneau-page .name-section {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.juneau-page .nav-arrow {
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+}
+
+.juneau-page .city-name {
+    margin: 5px;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
+}
+
 .juneau-body {
     background-color: #990000;
     margin: 0;
