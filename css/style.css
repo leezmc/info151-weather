@@ -1,0 +1,35 @@
+/* 
+~~~~~~~~~~~~~~~~~~~~~~
+File name: ./info151-weather-main/css/style.css
+Purpose: INFO151-001 - Team Project external CSS
+Author: Eric Li
+DrexelId: el836
+Complete Date: 6/8/2026
+~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+/*Juneau page css*/
+.juneau-page .app-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #FACF08;
+    background-color: #56BDFF;
+}
+
+.juneau-page .header-icon {
+    position: absolute;
+    left: 10px;
+}
+
+.juneau-page .app-header h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.juneau-body {
+    background-color: #990000;
+    margin: 0;
+    padding: 0;
+}
