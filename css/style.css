@@ -15,11 +15,13 @@ Complete Date: 6/8/2026
     position: relative;
     color: #FACF08;
     background-color: #56BDFF;
+    font-size: 1.5rem;
 }
 
 .juneau-page .header-icon {
     position: absolute;
     left: 10px;
+    font-size: 2.25rem;
 }
 
 .juneau-page .app-header h1 {
@@ -44,9 +46,37 @@ Complete Date: 6/8/2026
 }
 
 .juneau-page .city-name {
-    margin: 5px;
+    margin: 0;
     -webkit-text-stroke: 4px black;
     paint-order: stroke fill;
+    font-style: italic;
+}
+
+.juneau-page .weather-section {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.juneau-page .weather-name {
+    margin: 0;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+}
+
+.juneau-page .temperature-section {
+    text-align: center;
+}
+
+.juneau-page .current-temp {
+    margin: 0;
+    font-size: 7.5rem;
+    color: white;
+}
+
+.juneau-page .high-low-temp {
+    margin: 0;
+    font-size: 1.7rem;
 }
 
 .juneau-body {
