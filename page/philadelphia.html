@@ -1,0 +1,76 @@
+<!doctype html>
+<!--
+File: page/philadelphia.html
+Purpose: Philadelphia city weather page
+Author: Mike Lee
+-->
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Philadelphia — 151 Weather</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/theme.css" />
+    </head>
+    <body>
+        <div class="weather-app theme-philadelphia" data-city="philadelphia">
+            <header class="app-header">
+                <span class="header-icon">⛅</span>
+                <h1 class="app-title">151 Weather</h1>
+                <button class="unit-toggle" id="unit-toggle">°C</button>
+            </header>
+
+            <nav class="page-nav">
+                <a class="page-btn active" href="philadelphia.html"
+                    >Philadelphia</a
+                >
+                <a class="page-btn" href="new-york.html">New York</a>
+                <a class="page-btn" href="juneau.html">Juneau</a>
+            </nav>
+
+            <section class="page">
+                <div class="weather-card">
+                    <h2 class="city-name">Philadelphia</h2>
+
+                    <section class="current-weather">
+                        <p class="condition" id="condition">Loading…</p>
+                        <p class="temperature" id="temperature">--°F</p>
+                        <p class="temp-range" id="temp-range">
+                            High: --°F &nbsp; Low: --°F
+                        </p>
+                    </section>
+
+                    <section class="weather-details">
+                        <p class="detail-item">
+                            <span class="detail-label">Humidity:</span>
+                            <span class="detail-value" id="humidity">--%</span>
+                        </p>
+                        <p class="detail-item">
+                            <span class="detail-label">Air Quality:</span>
+                            <span class="detail-value" id="air-quality"
+                                >--</span
+                            >
+                        </p>
+                        <p class="detail-item">
+                            <span class="detail-label">Chance Of Rain:</span>
+                            <span class="detail-value" id="rain-chance"
+                                >--%</span
+                            >
+                        </p>
+                    </section>
+
+                    <div>
+                        <img
+                            class="city-map"
+                            id="city-map"
+                            src="../img/philadelphia-map.png"
+                            alt="Map of Philadelphia"
+                        />
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="../js/weather.js"></script>
+    </body>
+</html>

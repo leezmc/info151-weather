@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <!--
 =============
@@ -11,32 +11,30 @@ Complete Date: 2026/06/05
 -->
 
 <html lang="en-US">
-    <head>
-        <title>Compare Cities — 151 Weather</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/theme.css">
-    </head>
+  <head>
+    <title>Compare Cities — 151 Weather</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+  </head>
 
-    <body>
-        <div class="weather-app theme-default">
+  <body>
+    <div class="weather-app theme-default">
+      <header class="app-header">
+        <span class="header-icon">⛅</span>
+        <h1 class="app-title">151 Weather</h1>
+      </header>
 
-            <header class="app-header">
-                <span class="header-icon">⛅</span>
-                <h1 class="app-title">151 Weather</h1>
-            </header>
+      <nav class="page-nav">
+        <a class="page-btn" href="page/philadelphia.html">Philadelphia </a>
+        <a class="page-btn" href="page/new-york.html">New York</a>
+        <a class="page-btn" href="page/juneau.html">Juneau</a>
+      </nav>
 
-            <nav class="page-nav">
-                <a class="page-btn" href="page/philadelphia.html">Philadelphia</a>
-                <a class="page-btn" href="page/new-york.html">New York</a>
-                <a class="page-btn" href="page/juneau.html">Juneau</a>
-            </nav>
+      <h1 class="welcome-message">
+        Select a city to view the current weather conditions.
+      </h1>
+    </div>
 
-            <section class="page" id="compare-page">
-                <div class="comparison-grid" id="comparison-grid"></div>
-            </section>
-
-        </div>
-
-        <script src="js/app.js"></script>
-    </body>
+    <script src="js/app.js"></script>
+  </body>
 </html>

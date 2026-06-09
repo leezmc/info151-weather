@@ -1,22 +1,21 @@
 :root {
-  --color-text:        #ffffff;
-  --color-aq-good:     #4ade80;
-  --color-aq-moderate: #facc15;
-  --color-aq-fair:     #fb923c;
-  --color-aq-poor:     #f87171;
+    --color-text: #ffffff;
+    --color-aq-good: #4ade80;
+    --color-aq-moderate: #facc15;
+    --color-aq-fair: #fb923c;
+    --color-aq-poor: #f87171;
 }
 
 .theme-default {
-  --color-bg:     #1c1c1c;
-  --color-header: #111111;
-  --color-accent: #ffffff;
-  --color-map-bg: #161616;
+    --color-bg: #1c1c1c;
+    --color-header: #111111;
+    --color-accent: #ffffff;
+    --color-map-bg: #161616;
 }
 
-
 .theme-philadelphia {
-  --color-bg:     #1a5f6e;
-  --color-header: #2e4a8f;
-  --color-accent: #f5c842;
-  --color-map-bg: #14495a;
+    --color-bg: #004c54;
+    --color-header: #2e4a8f;
+    --color-accent: #f5c842;
+    --color-map-bg: #14495a;
 }
