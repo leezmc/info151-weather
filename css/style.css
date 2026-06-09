@@ -79,6 +79,19 @@ Complete Date: 6/8/2026
     font-size: 1.7rem;
 }
 
+.juneau-page .extra {
+    margin: 0;
+    line-height: 0.5;
+    padding-left: 475px;
+    font-size: 1.7rem;
+}
+
+.juneau-page .juneau-map {
+    width: 37%;
+    display: block;
+    margin: 0 auto;
+}
+
 .juneau-body {
     background-color: #990000;
     margin: 0;
