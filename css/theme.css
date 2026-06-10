@@ -19,3 +19,10 @@
     --color-accent: #f5c842;
     --color-map-bg: #14495a;
 }
+
+.theme-juneau {
+    --color-bg: #1a3a5c;
+    --color-header: #0f2540;
+    --color-accent: #f5c842;
+    --color-map-bg: #152e4a;
+}
