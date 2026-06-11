@@ -4,6 +4,7 @@ const CITIES = {
     philadelphia: { lat: 39.9526, lon: -75.1652 },
     "new-york": { lat: 40.7128, lon: -74.006 },
     juneau: { lat: 58.3005, lon: -134.4197 },
+    houston: { lat: 29.7604, lon: -95.3698 },
 };
 
 const WMO = {
