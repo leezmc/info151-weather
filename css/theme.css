@@ -40,4 +40,11 @@ Purpose: Color theme variables for each city page
     --color-header: #0d1f35;
     --color-accent: #f5c842;
     --color-map-bg: #142338;
+
+.theme-houston {
+    --color-bg: #1a1a2e;
+    --color-header: #0d0d1f;
+    --color-accent: #f5c842;
+    --color-map-bg: #141428;
+
 }
