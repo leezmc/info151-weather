@@ -1,3 +1,10 @@
+/*
+=============
+File name: ./info151-weather-main/css/theme.css
+Purpose: Color theme variables for each city page
+=============
+*/
+
 :root {
     --color-text: #ffffff;
     --color-aq-good: #4ade80;
@@ -25,4 +32,12 @@
     --color-header: #0f2540;
     --color-accent: #f5c842;
     --color-map-bg: #152e4a;
+}
+
+/* New York City — deep navy blue */
+.theme-new-york {
+    --color-bg: #1a2e4a;
+    --color-header: #0d1f35;
+    --color-accent: #f5c842;
+    --color-map-bg: #142338;
 }

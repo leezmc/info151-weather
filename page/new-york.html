@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+=============
+File name: ./info151-weather-main/page/new-york.html
+Purpose: INFO151-001: Team Project - New York City Page
+Author: Victor Uzo-Ojinnaka
+DrexelId: uvu23
+Complete Date: 6/10/2026
+=============
+-->
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>New York City — 151 Weather</title>
+        <!-- External stylesheets for layout and color themes -->
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/theme.css" />
+    </head>
+    <body>
+        <!-- theme-new-york applies the NYC color palette
+             data-city tells weather.js which coordinates to use for the API fetch -->
+        <div class="weather-app theme-new-york" data-city="new-york">
+
+            <!-- Site header: displays the app logo, title, and the Fahrenheit/Celsius toggle button -->
+            <header class="app-header">
+                <span class="header-icon">⛅</span>
+                <h1 class="app-title">151 Weather</h1>
+                <!-- Toggle button switches display between Fahrenheit and Celsius -->
+                <button class="unit-toggle" id="unit-toggle">°C</button>
+            </header>
+
+            <!-- Navigation tabs linking to all four city pages; active tab highlights current page -->
+            <nav class="page-nav">
+                <a class="page-btn" href="philadelphia.html">Philadelphia</a>
+                <a class="page-btn active" href="new-york.html">New York</a>
+                <a class="page-btn" href="juneau.html">Juneau</a>
+                <a class="page-btn" href="houston.html">Houston</a>
+            </nav>
+
+            <section class="page">
+                <div class="weather-card">
+                    <h2 class="city-name">New York City</h2>
+
+                    <!-- Placeholders replaced with live API data by weather.js -->
+                    <section class="current-weather">
+                        <p class="condition" id="condition">Loading…</p>
+                        <p class="temperature" id="temperature">--°F</p>
+                        <p class="temp-range" id="temp-range">
+                            High: --°F &nbsp; Low: --°F
+                        </p>
+                    </section>
+
+                    <!-- Secondary weather details fetched from API -->
+                    <section class="weather-details">
+                        <p class="detail-item">
+                            <span class="detail-label">Humidity:</span>
+                            <span class="detail-value" id="humidity">--%</span>
+                        </p>
+                        <p class="detail-item">
+                            <span class="detail-label">Air Quality:</span>
+                            <span class="detail-value" id="air-quality">--</span>
+                        </p>
+                        <p class="detail-item">
+                            <span class="detail-label">Chance Of Rain:</span>
+                            <span class="detail-value" id="rain-chance">--%</span>
+                        </p>
+                    </section>
+
+                    <!-- Map image of New York City -->
+                    <div>
+                        <img
+                            class="city-map"
+                            id="city-map"
+                            src="../img/new-york-map.png"
+                            alt="Map of New York City"
+                        />
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- External JS handles API fetch, unit toggle, and temperature conversion -->
+        <script src="../js/weather.js"></script>
+    </body>
+</html>
